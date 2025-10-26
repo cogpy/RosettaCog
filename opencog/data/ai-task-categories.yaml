@@ -1,0 +1,201 @@
+# AI/AGI Task Categorization
+# Maps RosettaCode tasks to AI/cognitive computing domains
+
+categories:
+  symbolic_reasoning:
+    description: "Logic, theorem proving, constraint satisfaction, formal reasoning"
+    tasks:
+      - "AKS-test-for-primes"
+      - "Boolean-values"
+      - "Logical-operations"
+      - "Satisfiability"
+      - "Constraint-satisfaction"
+      - "Theorem-proving"
+      - "Prolog-solving"
+      - "Logic-puzzles"
+      - "Sudoku"
+      - "Zebra-puzzle"
+      - "Eight-queens"
+      - "N-queens-problem"
+      - "Knights-tour"
+      - "Send-more-money"
+      - "Verbal-arithmetic"
+      
+  pattern_recognition:
+    description: "Search algorithms, pattern matching, classification"
+    tasks:
+      - "Binary-search"
+      - "String-matching"
+      - "Regular-expressions"
+      - "Pattern-matching"
+      - "Substring-matching"
+      - "Anagrams"
+      - "Palindrome-detection"
+      - "Sequence-recognition"
+      - "Classification"
+      - "Clustering"
+      - "Levenshtein-distance"
+      - "Edit-distance"
+      
+  knowledge_representation:
+    description: "Data structures, graphs, semantic networks, ontologies"
+    tasks:
+      - "Graph-theory"
+      - "Tree-traversal"
+      - "Topological-sort"
+      - "Shortest-path"
+      - "Dijkstras-algorithm"
+      - "A-star-search"
+      - "Data-structures"
+      - "Hash-tables"
+      - "Associative-arrays"
+      - "Semantic-networks"
+      - "Knowledge-graphs"
+      - "Ontology-representation"
+      - "RDF-processing"
+      - "JSON-parsing"
+      - "XML-processing"
+      
+  machine_learning:
+    description: "Statistical methods, optimization, neural networks"
+    tasks:
+      - "Neural-networks"
+      - "Perceptron"
+      - "Backpropagation"
+      - "Gradient-descent"
+      - "Linear-regression"
+      - "K-means-clustering"
+      - "Decision-trees"
+      - "Naive-Bayes"
+      - "Support-vector-machines"
+      - "Genetic-algorithms"
+      - "Simulated-annealing"
+      - "Particle-swarm"
+      - "Monte-Carlo"
+      - "Random-forest"
+      - "Deep-learning"
+      
+  natural_language:
+    description: "String manipulation, parsing, text analysis, NLP"
+    tasks:
+      - "Tokenization"
+      - "Parsing"
+      - "Lexical-analysis"
+      - "Syntax-analysis"
+      - "Text-processing"
+      - "String-manipulation"
+      - "Word-frequency"
+      - "Soundex"
+      - "Metaphone"
+      - "Stemming"
+      - "Lemmatization"
+      - "N-grams"
+      - "Markov-chains"
+      - "Language-detection"
+      - "Sentiment-analysis"
+      
+  planning_problem_solving:
+    description: "Heuristic search, game playing, puzzle solving, planning"
+    tasks:
+      - "A-star"
+      - "Breadth-first-search"
+      - "Depth-first-search"
+      - "Best-first-search"
+      - "Game-of-Life"
+      - "Tic-tac-toe"
+      - "Chess"
+      - "Checkers"
+      - "15-puzzle"
+      - "Towers-of-Hanoi"
+      - "Traveling-salesman"
+      - "Knapsack-problem"
+      - "Job-shop-scheduling"
+      - "Path-finding"
+      - "STRIPS-planning"
+      
+  uncertainty_reasoning:
+    description: "Probabilistic methods, Bayesian reasoning, fuzzy logic"
+    tasks:
+      - "Probability-calculations"
+      - "Bayesian-inference"
+      - "Bayes-theorem"
+      - "Fuzzy-logic"
+      - "Probabilistic-reasoning"
+      - "Uncertainty-quantification"
+      - "Monte-Carlo-simulation"
+      - "Random-sampling"
+      - "Statistical-inference"
+      - "Hypothesis-testing"
+      - "Confidence-intervals"
+      - "Belief-propagation"
+      
+  cognitive_architecture:
+    description: "Concurrent systems, distributed computing, agent systems, emergence"
+    tasks:
+      - "Concurrent-computing"
+      - "Parallel-processing"
+      - "Multi-threading"
+      - "Actor-model"
+      - "Agent-systems"
+      - "Multi-agent-systems"
+      - "Distributed-computing"
+      - "Message-passing"
+      - "Synchronization"
+      - "Mutual-exclusion"
+      - "Producer-consumer"
+      - "Dining-philosophers"
+      - "Readers-writers"
+      - "Active-object"
+      
+  perception_motor:
+    description: "Image processing, signal processing, robotics, sensorimotor"
+    tasks:
+      - "Image-processing"
+      - "Edge-detection"
+      - "Image-filtering"
+      - "Convolution"
+      - "Fourier-transform"
+      - "Signal-processing"
+      - "Computer-vision"
+      - "Object-detection"
+      - "Robot-control"
+      - "Motion-planning"
+      - "Bitmap-manipulation"
+      - "Graphics-rendering"
+      
+  meta_learning:
+    description: "Self-improvement, code generation, reflection, introspection"
+    tasks:
+      - "Quine"
+      - "Self-replication"
+      - "Code-generation"
+      - "Meta-programming"
+      - "Reflection"
+      - "Introspection"
+      - "Eval"
+      - "Macro-systems"
+      - "Template-metaprogramming"
+      - "Runtime-compilation"
+      - "Self-modifying-code"
+      - "Genetic-programming"
+
+evaluation_dimensions:
+  expressiveness:
+    description: "How naturally the language expresses the solution"
+    weight: 0.3
+    
+  performance:
+    description: "Runtime efficiency and resource usage"
+    weight: 0.25
+    
+  conciseness:
+    description: "Lines of code and complexity"
+    weight: 0.2
+    
+  readability:
+    description: "Code clarity and maintainability"
+    weight: 0.15
+    
+  ecosystem:
+    description: "Library support and tooling"
+    weight: 0.1

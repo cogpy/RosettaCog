@@ -70,6 +70,54 @@ data.
     Show the number of languages with code samples per task
 
 
+## OpenCog: AI/AGI Evaluation Framework
+
+The `opencog` directory contains a post-polyglot transcendent evaluation framework
+that analyzes all programming languages for AI and AGI capabilities. OpenCog
+represents the culmination of evaluating every known programming language against
+the full spectrum of AI capabilities.
+
+### OpenCog Tools
+
+The OpenCog framework provides tools to evaluate languages across AI domains:
+
+* `opencog/bin/opencog-analyze`
+
+    Analyze all languages and generate comprehensive AI capability reports
+    showing which languages excel at different AI/cognitive tasks
+
+* `opencog/bin/opencog-manifest`
+
+    Generate the FrankenCog Integration Manifest - identifies the optimal
+    language for each AI function to create a "patchwork" of best implementations
+
+* `opencog/bin/opencog-eval-lang <language>`
+
+    Evaluate a specific language's AI capabilities in detail
+
+* `opencog/bin/opencog-eval-category <category>`
+
+    Evaluate all languages for a specific AI category (e.g., symbolic_reasoning,
+    machine_learning, natural_language, etc.)
+
+### AI Categories
+
+OpenCog categorizes tasks into these AI/cognitive domains:
+
+- **Symbolic Reasoning**: Logic, theorem proving, constraint satisfaction
+- **Pattern Recognition**: Search, matching, classification
+- **Knowledge Representation**: Data structures, graphs, semantic networks
+- **Machine Learning**: Statistical methods, optimization, neural networks
+- **Natural Language Processing**: Text analysis, parsing, NLP
+- **Planning & Problem Solving**: Heuristic search, game playing, puzzles
+- **Uncertainty Reasoning**: Probabilistic methods, fuzzy logic
+- **Cognitive Architecture**: Concurrent systems, agent-based systems
+- **Perception & Motor**: Image processing, signal processing
+- **Meta-Learning**: Self-improvement, reflection, code generation
+
+See `opencog/README.md` for complete documentation.
+
+
 ## To Do
 
 Pull requests welcome!
