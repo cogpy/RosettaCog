@@ -17,6 +17,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "lib"))
 from opencog_analyzer import OpenCogAnalyzer
 
 
+def format_category_name(category_name):
+    """Format category name for display."""
+    return category_name.replace('_', ' ').title()
+
+
 def generate_markdown_report(analyzer):
     """Generate a comprehensive Markdown report."""
     
@@ -74,7 +79,7 @@ def generate_markdown_report(analyzer):
     report.append("")
     
     for category_name, category_data in sorted(manifest['categories'].items()):
-        report.append(f"### {category_name.replace('_', ' ').title()}")
+        report.append(f"### {format_category_name(category_name)}")
         report.append("")
         report.append(f"**Description**: {category_data['description']}")
         report.append("")
@@ -109,7 +114,7 @@ def generate_markdown_report(analyzer):
     for category_name, category_data in manifest['categories'].items():
         if category_data['best_language']:
             lang_specializations[category_data['best_language']].append(
-                category_name.replace('_', ' ').title()
+                format_category_name(category_name)
             )
     
     report.append("| Language | AI Domains (Best Performance) |")
@@ -133,7 +138,7 @@ def generate_markdown_report(analyzer):
         category_info = categories_info[category_name]
         manifest_data = manifest['categories'].get(category_name, {})
         
-        report.append(f"### {category_name.replace('_', ' ').title()}")
+        report.append(f"### {format_category_name(category_name)}")
         report.append("")
         report.append(f"**Description**: {category_info.get('description', 'N/A')}")
         report.append("")
