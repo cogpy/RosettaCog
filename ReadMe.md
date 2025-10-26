@@ -100,6 +100,11 @@ The OpenCog framework provides tools to evaluate languages across AI domains:
     Evaluate all languages for a specific AI category (e.g., symbolic_reasoning,
     machine_learning, natural_language, etc.)
 
+* `opencog/bin/opencog-report`
+
+    Generate a comprehensive Transcendent Expression Report documenting the
+    optimal language for each AI function and the overall FrankenCog synthesis
+
 ### AI Categories
 
 OpenCog categorizes tasks into these AI/cognitive domains:
