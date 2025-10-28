@@ -140,16 +140,16 @@ across the 10 AI/AGI functional categories. The system has:
 5. Julia - 135 AI tasks
 
 **FrankenCog Optimal Language Selection** (best language per AI domain):
-- **Symbolic Reasoning**: C# (1,185 implementations)
-- **Pattern Recognition**: Ada (1,185 implementations)
-- **Knowledge Representation**: C++ (1,334 implementations)
-- **Machine Learning**: C (677 implementations)
-- **Natural Language**: C (1,236 implementations)
-- **Planning & Problem Solving**: 11l (1,102 implementations)
-- **Uncertainty Reasoning**: C (592 implementations)
-- **Cognitive Architecture**: Ada (494 implementations)
-- **Perception & Motor**: C (1,183 implementations)
-- **Meta-Learning**: FreeBASIC (1,354 implementations)
+- **Symbolic Reasoning**: C# (12 tasks, from 1,185 total category implementations)
+- **Pattern Recognition**: Ada (12 tasks, from 1,185 total category implementations)
+- **Knowledge Representation**: C++ (16 tasks, from 1,334 total category implementations)
+- **Machine Learning**: C (8 tasks, from 677 total category implementations)
+- **Natural Language**: C (15 tasks, from 1,236 total category implementations)
+- **Planning & Problem Solving**: 11l (13 tasks, from 1,102 total category implementations)
+- **Uncertainty Reasoning**: C (11 tasks, from 592 total category implementations)
+- **Cognitive Architecture**: Ada (10 tasks, from 494 total category implementations)
+- **Perception & Motor**: C (20 tasks, from 1,183 total category implementations)
+- **Meta-Learning**: FreeBASIC (16 tasks, from 1,354 total category implementations)
 
 The evaluation demonstrates that no single language is optimal for all AI functions.
 Instead, the FrankenCog approach leverages each language's unique strengths:

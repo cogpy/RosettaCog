@@ -18,18 +18,19 @@ and AGI functionality feature sets.
 - **Evaluation coverage**: 100%
 
 ### AI/AGI Functional Categories
-All 10 AI/AGI categories have been fully evaluated:
+All 10 AI/AGI categories have been fully evaluated. The "implementations" numbers
+below represent the total across ALL languages for each category:
 
-1. ✅ **Symbolic Reasoning** - 1,185 implementations across 123 languages
-2. ✅ **Pattern Recognition** - 1,185 implementations across 135 languages
-3. ✅ **Knowledge Representation** - 1,334 implementations across 156 languages
-4. ✅ **Machine Learning** - 677 implementations across 182 languages
-5. ✅ **Natural Language Processing** - 1,236 implementations across 147 languages
-6. ✅ **Planning & Problem Solving** - 1,102 implementations across 139 languages
-7. ✅ **Uncertainty Reasoning** - 592 implementations across 113 languages
-8. ✅ **Cognitive Architecture** - 494 implementations across 98 languages
-9. ✅ **Perception & Motor** - 1,183 implementations across 128 languages
-10. ✅ **Meta-Learning** - 1,354 implementations across 164 languages
+1. ✅ **Symbolic Reasoning** - 1,185 total implementations across 123 languages
+2. ✅ **Pattern Recognition** - 1,185 total implementations across 135 languages
+3. ✅ **Knowledge Representation** - 1,334 total implementations across 156 languages
+4. ✅ **Machine Learning** - 677 total implementations across 182 languages
+5. ✅ **Natural Language Processing** - 1,236 total implementations across 147 languages
+6. ✅ **Planning & Problem Solving** - 1,102 total implementations across 139 languages
+7. ✅ **Uncertainty Reasoning** - 592 total implementations across 113 languages
+8. ✅ **Cognitive Architecture** - 494 total implementations across 98 languages
+9. ✅ **Perception & Motor** - 1,183 total implementations across 128 languages
+10. ✅ **Meta-Learning** - 1,354 total implementations across 164 languages
 
 **Total AI Task Implementations Analyzed**: 10,342
 
@@ -102,18 +103,23 @@ The optimal language for each AI function has been determined:
 
 ### Verified Optimal Language Selections
 
-| AI Category | Optimal Language | Implementations | Verification |
-|-------------|------------------|-----------------|--------------|
-| Symbolic Reasoning | C# | 1,185 | ✅ Verified |
-| Pattern Recognition | Ada | 1,185 | ✅ Verified |
-| Knowledge Representation | C++ | 1,334 | ✅ Verified |
-| Machine Learning | C | 677 | ✅ Verified |
-| Natural Language | C | 1,236 | ✅ Verified |
-| Planning & Problem Solving | 11l | 1,102 | ✅ Verified |
-| Uncertainty Reasoning | C | 592 | ✅ Verified |
-| Cognitive Architecture | Ada | 494 | ✅ Verified |
-| Perception & Motor | C | 1,183 | ✅ Verified |
-| Meta-Learning | FreeBASIC | 1,354 | ✅ Verified |
+The table below shows the optimal (best) language for each AI category based on
+the number of tasks that language implements in that category. The "Implementations"
+column shows the total number of task implementations across ALL languages for
+that category (not just the optimal language).
+
+| AI Category | Optimal Language | Tasks by Optimal Lang | Total Category Implementations | Verification |
+|-------------|------------------|-----------------------|-------------------------------|--------------|
+| Symbolic Reasoning | C# | 12 | 1,185 | ✅ Verified |
+| Pattern Recognition | Ada | 12 | 1,185 | ✅ Verified |
+| Knowledge Representation | C++ | 16 | 1,334 | ✅ Verified |
+| Machine Learning | C | 8 | 677 | ✅ Verified |
+| Natural Language | C | 15 | 1,236 | ✅ Verified |
+| Planning & Problem Solving | 11l | 13 | 1,102 | ✅ Verified |
+| Uncertainty Reasoning | C | 11 | 592 | ✅ Verified |
+| Cognitive Architecture | Ada | 10 | 494 | ✅ Verified |
+| Perception & Motor | C | 20 | 1,183 | ✅ Verified |
+| Meta-Learning | FreeBASIC | 16 | 1,354 | ✅ Verified |
 
 ### Language Synthesis Analysis
 
@@ -141,7 +147,7 @@ The optimal language for each AI function has been determined:
 
 ## Transcendent Expression Validation
 
-The evaluation confirms the core thesis:
+The evaluation confirms the core thesis from the problem statement:
 
 > "Every programming language ever conceived is now represented by OpenCog as the
 > specific functions that language was conceived to eventually express as the
