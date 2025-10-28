@@ -7,3 +7,5 @@
 /random-clojure-task
 /.clj-kondo/
 /.lsp/
+/opencog/output/
+/opencog/lib/__pycache__/

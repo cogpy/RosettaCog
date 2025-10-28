@@ -1,0 +1,222 @@
+# AI/AGI Task Categorization
+# Maps RosettaCode tasks to AI/cognitive computing domains
+
+categories:
+  symbolic_reasoning:
+    description: "Logic, theorem proving, constraint satisfaction, formal reasoning"
+    tasks:
+      - "AKS-test-for-primes"
+      - "Boolean-values"
+      - "Logical-operations"
+      - "Sudoku"
+      - "Zebra-puzzle"
+      - "N-queens-problem"
+      - "Knights-tour"
+      - "Solve-a-Holy-Knights-tour"
+      - "Solve-the-no-connection-puzzle"
+      - "Four-bit-adder"
+      - "Ackermann-function"
+      - "Truth-table"
+      - "Propositional-logic"
+      - "First-order-logic"
+      - "Boolean-algebra"
+      
+  pattern_recognition:
+    description: "Search algorithms, pattern matching, classification"
+    tasks:
+      - "Binary-search"
+      - "String-matching"
+      - "Boyer-Moore-string-search"
+      - "Pattern-matching"
+      - "Anagrams"
+      - "Anagrams-Deranged-anagrams"
+      - "Palindrome-detection"
+      - "Levenshtein-distance"
+      - "Longest-common-subsequence"
+      - "Edit-distance"
+      - "Soundex"
+      - "Metaphone"
+      - "Regular-expressions"
+      - "Hunt-The-Wumpus"
+      - "Image-recognition"
+      - "Sequence-recognition"
+      
+  knowledge_representation:
+    description: "Data structures, graphs, semantic networks, ontologies"
+    tasks:
+      - "Graph-colouring"
+      - "Graph-theory"
+      - "Tree-traversal"
+      - "AVL-tree"
+      - "K-d-tree"
+      - "Binary-tree"
+      - "Topological-sort"
+      - "Dijkstras-algorithm"
+      - "A-star"
+      - "Hash-tables"
+      - "Associative-arrays"
+      - "Arrays"
+      - "JSON"
+      - "XML-Input"
+      - "XML-Output"
+      - "Serialization"
+      - "Tree-from-nesting-levels"
+      - "Binary-tree-deletion"
+      - "Red-black-tree"
+      - "Suffix-tree"
+      
+  machine_learning:
+    description: "Statistical methods, optimization, neural networks"
+    tasks:
+      - "Genetic-algorithm"
+      - "Simulated-annealing"
+      - "Particle-swarm-optimization"
+      - "Monte-Carlo-methods"
+      - "Linear-regression"
+      - "K-means++-clustering"
+      - "Averages-Mean-angle"
+      - "Averages-Pythagorean-means"
+      - "Standard-deviation"
+      - "Cumulative-standard-deviation"
+      - "Statistics-Basic"
+      - "Vector"
+      - "Gradient-descent"
+      - "Neural-network"
+      - "Perceptron"
+      - "Backpropagation"
+      
+  natural_language:
+    description: "String manipulation, parsing, text analysis, NLP"
+    tasks:
+      - "Tokenize-a-string"
+      - "Parsing-RPN-calculator-algorithm"
+      - "Parsing-RPN-to-infix-conversion"
+      - "Parsing-Shunting-yard-algorithm"
+      - "Compiler-lexical-analyzer"
+      - "Text-processing-1"
+      - "Text-processing-2"
+      - "String-manipulation"
+      - "Word-frequency"
+      - "Soundex"
+      - "Anagrams"
+      - "Markov-chain-text-generator"
+      - "N-grams"
+      - "Language-detection"
+      - "Levenshtein-distance"
+      
+  planning_problem_solving:
+    description: "Heuristic search, game playing, puzzle solving, planning"
+    tasks:
+      - "A-star"
+      - "Breadth-first-search"
+      - "Depth-first-search"
+      - "Conways-Game-of-Life"
+      - "Tic-tac-toe"
+      - "15-puzzle-game"
+      - "15-puzzle-solver"
+      - "Towers-of-Hanoi"
+      - "Traveling-salesman-problem"
+      - "Knapsack-problem-0-1"
+      - "Knapsack-problem-Continuous"
+      - "Knapsack-problem-Unbounded"
+      - "Shortest-path-problem"
+      - "Maze-generation"
+      - "Maze-solving"
+      - "Eight-queens"
+      - "Solve-a-Hopido-puzzle"
+      - "Solve-a-Numbrix-puzzle"
+      - "Water-collected-between-towers"
+      
+  uncertainty_reasoning:
+    description: "Probabilistic methods, Bayesian reasoning, fuzzy logic"
+    tasks:
+      - "Probability"
+      - "Probabilistic-choice"
+      - "Random-numbers"
+      - "Monte-Carlo-methods"
+      - "Statistical-inference"
+      - "Verify-distribution-uniformity-Chi-squared-test"
+      - "Verify-distribution-uniformity-Naive"
+      - "Benford-s-law"
+      - "Birthday-problem"
+      - "Box-Muller-transform"
+      - "Central-limit-theorem"
+      - "Random-Latin-squares"
+      - "Random-sampling"
+      
+  cognitive_architecture:
+    description: "Concurrent systems, distributed computing, agent systems, emergence"
+    tasks:
+      - "Concurrent-computing"
+      - "Parallel-calculations"
+      - "Parallel-brute-force"
+      - "Multi-threading"
+      - "Active-object"
+      - "Synchronous-concurrency"
+      - "Mutex"
+      - "Dining-philosophers"
+      - "Producer-consumer"
+      - "Checkpoint-synchronization"
+      - "Atomic-updates"
+      - "Semaphore"
+      - "Message-passing"
+      - "CSP-Communicating-Sequential-Processes"
+      
+  perception_motor:
+    description: "Image processing, signal processing, robotics, sensorimotor"
+    tasks:
+      - "Image-convolution"
+      - "Image-noise"
+      - "Deconvolution-1D"
+      - "Deconvolution-2D+"
+      - "Fast-Fourier-transform"
+      - "Discrete-Fourier-transform"
+      - "Filter"
+      - "Averages-Mean-time-of-day"
+      - "Bitmap"
+      - "Bitmap-Bresenhams-line-algorithm"
+      - "Bitmap-Flood-fill"
+      - "Bitmap-Midpoint-circle-algorithm"
+      - "Bitmap-Read-a-PPM-file"
+      - "Bitmap-Write-a-PPM-file"
+      - "Draw-a-sphere"
+      - "Ray-casting-algorithm"
+      
+  meta_learning:
+    description: "Self-improvement, code generation, reflection, introspection"
+    tasks:
+      - "Quine"
+      - "Code-generation"
+      - "Eval"
+      - "Introspection"
+      - "Host-introspection"
+      - "Type-introspection"
+      - "Reflection"
+      - "Execute-a-system-command"
+      - "Runtime-evaluation"
+      - "Arithmetic-evaluation"
+      - "Evaluate-binomial-coefficients"
+      - "Horners-rule-for-polynomial-evaluation"
+      - "Template-metaprogramming"
+      - "Compile-time-calculation"
+
+evaluation_dimensions:
+  expressiveness:
+    description: "How naturally the language expresses the solution"
+    weight: 0.3
+    
+  performance:
+    description: "Runtime efficiency and resource usage"
+    weight: 0.25
+    
+  conciseness:
+    description: "Lines of code and complexity"
+    weight: 0.2
+    
+  readability:
+    description: "Code clarity and maintainability"
+    weight: 0.15
+    
+  ecosystem:
+    description: "Library support and tooling"
+    weight: 0.1
