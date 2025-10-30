@@ -2,7 +2,95 @@
 
 ## Overview
 
-OpenCog is a meta-evaluation system that analyzes all programming languages and paradigms represented in the RosettaCog repository to determine the optimal implementation language for each AI/AGI functionality.
+OpenCog is a comprehensive meta-evaluation system that:
+
+1. **Analyzes Programming Languages**: Evaluates all 970+ programming languages in RosettaCog 
+   for their AI/AGI capabilities across different cognitive domains
+2. **Multi-Agent Reasoning**: Provides a sophisticated orchestration workbench for solving 
+   LLM reasoning tasks using Agent-Zero and cognitive patterns
+3. **Pattern Language for AGI**: Maintains a living library of foundational cognitive 
+   patterns inspired by Christopher Alexander's architectural patterns
+
+## Multi-Agent Reasoning System
+
+OpenCog now includes the **Multi-Agent Orchestration Workbench** with:
+
+### Key Components
+
+1. **Agent-Zero (Master Builder)**
+   - Orchestrates cognitive architectures for reasoning challenges
+   - Coordinates 5 specialized agents (Analyzer, Strategist, Executor, Validator, Learner)
+   - Adapts strategies based on task requirements
+
+2. **Pattern Language Library**
+   - 10 foundational cognitive patterns for AGI
+   - Quality evolution: Experimental → Proven → Mature → Foundational
+   - Pattern composition and relationships
+   - Inspired by Christopher Alexander's "A Pattern Language"
+
+3. **Multi-Agent Orchestration**
+   - Collaborative, competitive, and sequential orchestration modes
+   - Message-based inter-agent communication
+   - Load balancing and capability matching
+
+4. **Strategy Repository**
+   - 7 core reasoning strategies (Deductive, Inductive, Abductive, etc.)
+   - Hybrid strategy composition
+   - Performance tracking and adaptation
+
+5. **Reasoning Tasks**
+   - 95 comprehensive LLM reasoning challenges
+   - Categories include logic, analogical reasoning, causal analysis, and more
+
+### Quick Start
+
+```python
+from opencog import OpenCogWorkbench
+
+# Initialize the workbench
+workbench = OpenCogWorkbench(tasks_dir="opencog/reasoning-tasks")
+
+# Get task statistics
+stats = workbench.get_statistics()
+print(stats)
+
+# Solve a task autonomously
+result = workbench.solve_task("analogical-problem-solving", 
+                             orchestration_mode="autonomous")
+print(result)
+
+# Get recommendations for a task
+recommendations = workbench.get_task_recommendations("deductive-logic-puzzles")
+print(recommendations)
+```
+
+### Command-Line Tools
+
+```bash
+# Run the reasoning demo
+python3 opencog/opencog_reasoning_demo.py
+
+# Analyze reasoning tasks
+opencog/bin/opencog-reasoning
+
+# Solve a specific task with Agent-Zero
+opencog/bin/opencog-agent-zero analogical-problem-solving autonomous
+```
+
+### Foundational Cognitive Patterns
+
+1. **Problem Decomposition** - Break complex problems into manageable parts
+2. **Recursive Thinking** - Apply problem-solving recursively
+3. **Pattern Recognition** - Identify and match patterns
+4. **Logical Inference** - Apply logical rules systematically
+5. **Abstraction** - Extract general principles from specifics
+6. **Working Backward** - Start from goal and work backward
+7. **Metacognitive Monitoring** - Monitor and adjust approach
+8. **Analogical Transfer** - Apply solutions from similar problems
+9. **Constraint Satisfaction** - Satisfy multiple constraints
+10. **Causal Reasoning** - Understand cause-effect relationships
+
+## Language Capability Analysis
 
 ## Concept
 
