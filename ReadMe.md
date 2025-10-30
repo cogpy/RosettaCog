@@ -115,6 +115,12 @@ The OpenCog framework provides tools to evaluate languages across AI domains:
     and hypergraph generation revealing patterns of peak performance by
     language and paradigm (45 subcategories across 9 paradigms)
 
+* `opencog/bin/opencog-atom-types`
+
+    **NEW**: Generates formalized atom type expressions for cognitive domains and
+    language paradigms. Provides mathematical framework with algebraic operations
+    for reasoning about language-domain affinities and paradigm composition.
+
 * `opencog/bin/opencog-reasoning`
 
     Analyze reasoning tasks and get pattern/strategy recommendations

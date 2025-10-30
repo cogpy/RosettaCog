@@ -41,6 +41,9 @@ OpenCog now includes **refined task specialization** with hypergraph modeling:
 # Analyze with subcategory refinement and hypergraph generation
 opencog/bin/opencog-hypergraph --all
 
+# Generate atom type expressions
+opencog/bin/opencog-atom-types
+
 # Analyze a specific subcategory
 opencog/bin/opencog-hypergraph --subcategory symbolic_reasoning/logic_fundamentals
 
@@ -49,6 +52,43 @@ opencog/bin/opencog-hypergraph --export-graph --export-matrix
 ```
 
 See `opencog/HYPERGRAPH.md` for detailed documentation.
+
+## Atom Type Expression System (NEW)
+
+OpenCog now includes a **formalized atom type system** with mathematical expressions:
+
+### Features
+
+1. **Generalized Expressions**
+   - Cognitive Domain Atoms: `CD(d) = ⟨Ω_d, Σ_d, Ψ_d, Φ_d⟩`
+   - Language Paradigm Atoms: `LP(p) = ⟨Λ_p, Π_p, Θ_p, Ξ_p⟩`
+   
+2. **Specific Expressions**
+   - 10 cognitive domain atom instances with detailed expressions
+   - 9 language paradigm atom instances with computational models
+   - Paradigm-domain affinity matrix (Ξ_p: CD → [0,1])
+
+3. **Algebraic Operations**
+   - Set operations: intersection, union, composition
+   - Complexity measures: C(d), V(p)
+   - Affinity computation: A(p,d) = Ξ_p(d)
+
+### Quick Start
+
+```bash
+# Generate all atom type expressions and insights
+opencog/bin/opencog-atom-types
+
+# Access programmatically
+python3 -c "
+from opencog.lib.atom_type_builder import AtomTypeBuilder
+builder = AtomTypeBuilder('.')
+system = builder.build()
+system.print_summary()
+"
+```
+
+See `opencog/ATOM_TYPES.md` for complete mathematical formalism and usage.
 
 ## Multi-Agent Reasoning System
 
