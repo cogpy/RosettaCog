@@ -77,6 +77,29 @@ that analyzes all programming languages for AI and AGI capabilities. OpenCog
 represents the culmination of evaluating every known programming language against
 the full spectrum of AI capabilities.
 
+### OpenCog Multi-Agent Reasoning System
+
+OpenCog now includes a sophisticated multi-agent orchestration workbench for
+solving LLM reasoning tasks, featuring:
+
+- **Agent-Zero**: Master builder that orchestrates cognitive architectures
+- **Pattern Language Library**: 10 foundational cognitive patterns for AGI
+- **Multi-Agent Orchestration**: Collaborative problem-solving with specialized agents
+- **Strategy Repository**: 7 core reasoning strategies
+- **95 Reasoning Tasks**: Comprehensive collection of LLM reasoning challenges
+
+**Quick Start:**
+```bash
+# Run the reasoning task demo
+python3 opencog/opencog_reasoning_demo.py
+
+# Analyze reasoning tasks
+opencog/bin/opencog-reasoning
+
+# Solve a specific task with Agent-Zero
+opencog/bin/opencog-agent-zero analogical-problem-solving autonomous
+```
+
 ### OpenCog Tools
 
 The OpenCog framework provides tools to evaluate languages across AI domains:
@@ -85,6 +108,15 @@ The OpenCog framework provides tools to evaluate languages across AI domains:
 
     Analyze all languages and generate comprehensive AI capability reports
     showing which languages excel at different AI/cognitive tasks
+
+* `opencog/bin/opencog-reasoning`
+
+    Analyze reasoning tasks and get pattern/strategy recommendations
+
+* `opencog/bin/opencog-agent-zero <task_id> [mode]`
+
+    Orchestrate a reasoning task using Agent-Zero with autonomous,
+    collaborative, or guided modes
 
 * `opencog/bin/opencog-manifest`
 
