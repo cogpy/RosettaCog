@@ -109,6 +109,12 @@ The OpenCog framework provides tools to evaluate languages across AI domains:
     Analyze all languages and generate comprehensive AI capability reports
     showing which languages excel at different AI/cognitive tasks
 
+* `opencog/bin/opencog-hypergraph`
+
+    **NEW**: Refined task specialization analyzer with subcategory-level analysis
+    and hypergraph generation revealing patterns of peak performance by
+    language and paradigm (45 subcategories across 9 paradigms)
+
 * `opencog/bin/opencog-reasoning`
 
     Analyze reasoning tasks and get pattern/strategy recommendations
@@ -142,15 +148,29 @@ The OpenCog framework provides tools to evaluate languages across AI domains:
 OpenCog categorizes tasks into these AI/cognitive domains:
 
 - **Symbolic Reasoning**: Logic, theorem proving, constraint satisfaction
+  - Refined into 4 subcategories: logic fundamentals, theorem proving, constraint solving, formal computation
 - **Pattern Recognition**: Search, matching, classification
+  - Refined into 4 subcategories: search algorithms, string pattern matching, lexical patterns, recognition tasks
 - **Knowledge Representation**: Data structures, graphs, semantic networks
+  - Refined into 4 subcategories: graph structures, tree structures, associative structures, serialization
 - **Machine Learning**: Statistical methods, optimization, neural networks
+  - Refined into 4 subcategories: optimization, statistical learning, statistical measures, neural networks
 - **Natural Language Processing**: Text analysis, parsing, NLP
+  - Refined into 6 subcategories: tokenization, parsing, text processing, phonetic matching, text generation, language analysis
 - **Planning & Problem Solving**: Heuristic search, game playing, puzzles
+  - Refined into 5 subcategories: search strategies, game playing, puzzle solving, optimization problems, path planning
 - **Uncertainty Reasoning**: Probabilistic methods, fuzzy logic
+  - Refined into 4 subcategories: probability basics, Monte Carlo, statistical tests, distributions
 - **Cognitive Architecture**: Concurrent systems, agent-based systems
+  - Refined into 4 subcategories: parallelism, synchronization, concurrent patterns, message passing
 - **Perception & Motor**: Image processing, signal processing
+  - Refined into 5 subcategories: signal processing, image processing, bitmap operations, rendering, time processing
 - **Meta-Learning**: Self-improvement, reflection, code generation
+  - Refined into 5 subcategories: self reference, code generation, runtime evaluation, introspection, evaluation functions
+
+**Total: 10 categories → 45 refined subcategories**
+
+See `opencog/HYPERGRAPH.md` for complete subcategory taxonomy and hypergraph analysis documentation.
 
 See `opencog/README.md` for complete documentation.
 
