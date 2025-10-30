@@ -6,14 +6,53 @@ OpenCog is a comprehensive meta-evaluation system that:
 
 1. **Analyzes Programming Languages**: Evaluates all 970+ programming languages in RosettaCog 
    for their AI/AGI capabilities across different cognitive domains
-2. **Multi-Agent Reasoning**: Provides a sophisticated orchestration workbench for solving 
+2. **Refined Task Specialization**: **NEW** - 45 refined subcategories with hypergraph analysis 
+   revealing patterns of peak performance by language and paradigm
+3. **Multi-Agent Reasoning**: Provides a sophisticated orchestration workbench for solving 
    LLM reasoning tasks using Agent-Zero and cognitive patterns
-3. **Pattern Language for AGI**: Maintains a living library of foundational cognitive 
+4. **Pattern Language for AGI**: Maintains a living library of foundational cognitive 
    patterns inspired by Christopher Alexander's architectural patterns
+
+## Hypergraph Analysis (NEW)
+
+OpenCog now includes **refined task specialization** with hypergraph modeling:
+
+### Features
+
+1. **45 Refined Subcategories**
+   - Original 10 AI categories refined into 45 specialized subcategories
+   - Enables precise language-task matching
+   - See `opencog/HYPERGRAPH.md` for complete taxonomy
+
+2. **Functionality Hypergraph**
+   - Multi-dimensional graph of language-paradigm-task relationships
+   - 970 languages × 45 subcategories × 9 paradigms
+   - Reveals cross-paradigm performance patterns
+   - Exports to JSON for analysis and visualization
+
+3. **Paradigm Performance Matrix**
+   - Shows which programming paradigms excel at each subcategory
+   - Identifies paradigm-specific strengths
+   - Guides language selection for specific task types
+
+### Quick Start
+
+```bash
+# Analyze with subcategory refinement and hypergraph generation
+opencog/bin/opencog-hypergraph --all
+
+# Analyze a specific subcategory
+opencog/bin/opencog-hypergraph --subcategory symbolic_reasoning/logic_fundamentals
+
+# Export hypergraph and paradigm matrix
+opencog/bin/opencog-hypergraph --export-graph --export-matrix
+```
+
+See `opencog/HYPERGRAPH.md` for detailed documentation.
 
 ## Multi-Agent Reasoning System
 
-OpenCog now includes the **Multi-Agent Orchestration Workbench** with:
+OpenCog includes the **Multi-Agent Orchestration Workbench** with:
 
 ### Key Components
 
