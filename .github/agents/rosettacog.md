@@ -623,189 +623,69 @@ The RosettaCog framework continuously evolves:
 
 ## Usage Examples
 
-### Example 1: Language Selection for AI Task
+### Usage Examples
 ```bash
-# Evaluate which language is best for machine learning tasks
+# Language evaluation
 opencog/bin/opencog-eval-category "Machine Learning"
-
-# Check specific language's ML capabilities
 opencog/bin/opencog-eval-lang Python
 
-# Get hypergraph view of ML subcategories
-opencog/bin/opencog-hypergraph --subcategory machine_learning/optimization
-```
-
-### Example 2: Multi-Agent Reasoning
-```bash
-# Solve analogical reasoning task autonomously
+# Multi-agent reasoning
 opencog/bin/opencog-agent-zero analogical-problem-solving autonomous
-
-# Get pattern recommendations for logic puzzle
-opencog/bin/opencog-reasoning
-
-# Run interactive demo
 python3 opencog/opencog_reasoning_demo.py
-```
 
-### Example 3: Hypergraph Analysis
-```bash
-# Generate complete hypergraph with all analyses
-opencog/bin/opencog-hypergraph --all
+# Hypergraph analysis
+opencog/bin/opencog-hypergraph --all --export-graph --export-matrix
 
-# Export for external visualization
-opencog/bin/opencog-hypergraph --export-graph --export-matrix
-
-# Analyze specific paradigm performance
-opencog/bin/opencog-hypergraph --report
-```
-
-### Example 4: Atom Type Mathematics
-```bash
-# Generate all atom type expressions
-opencog/bin/opencog-atom-types
-
-# Access programmatically
-python3 -c "
-from opencog.lib.atom_type_builder import AtomTypeBuilder
-builder = AtomTypeBuilder('.')
-system = builder.build()
-
-# Get domain complexity
-sr = system.cognitive_domains['symbolic_reasoning']
-print(f'Complexity: {sr.compute_complexity()}')
-
-# Get paradigm-domain affinity
-affinity = system.compute_paradigm_domain_affinity('functional', 'symbolic_reasoning')
-print(f'Affinity: {affinity}')
-"
-```
-
-### Example 5: FrankenCog Synthesis
-```bash
-# Generate integration manifest
+# FrankenCog synthesis
 opencog/bin/opencog-manifest
-
-# Generate comprehensive report
 opencog/bin/opencog-report
-
-# Analyze all languages for complete overview
-opencog/bin/opencog-analyze
 ```
 
-## Future Directions & Research Frontiers
+## Future Directions
 
-### 1. Automated FrankenCog Compilation
-- Automatically generate polyglot applications using optimal language per function
-- Seamless inter-language communication infrastructure
-- Performance benchmarking of hybrid implementations
-- Build system integration for multi-language projects
+1. **Automated FrankenCog Compilation** - Generate polyglot applications with optimal language per function
+2. **Real-Time Performance Tracking** - Continuous benchmarking and trend analysis
+3. **AI-Assisted Code Translation** - Leverage 10,342+ implementations for semantic-preserving translation
+4. **Interactive Hypergraph Visualization** - Web-based 3D exploration of relationships
+5. **Cognitive Pattern Evolution** - Automated pattern discovery and quality promotion
+6. **Extended Subcategory Refinement** - Expand to 100+ subcategories for finer granularity
+7. **Multi-Modal Code Analysis** - Static/dynamic profiling with security and maintainability metrics
+8. **Collaborative Agent-Zero Networks** - Distributed problem solving with emergent intelligence
 
-### 2. Real-Time Language Performance Tracking
-- Continuous benchmarking as new implementations added
-- Automated regression detection
-- Performance trend analysis over time
-- Predictive modeling of language evolution
+## Integration & Extensibility
 
-### 3. AI-Assisted Code Translation
-- Leverage 10,342+ implementations for training translation models
-- Preserve semantic equivalence across language boundaries
-- Optimize for target paradigm idioms
-- Quality assessment using empirical data
-
-### 4. Interactive Hypergraph Visualization
-- Web-based 3D visualization of language-paradigm-task relationships
-- Real-time exploration and filtering
-- Community detection visualization
-- Temporal evolution animations
-
-### 5. Cognitive Pattern Evolution
-- Automated pattern discovery from reasoning task solutions
-- Pattern quality promotion based on empirical success
-- Pattern composition optimization
-- New pattern proposal system
-
-### 6. Extended Subcategory Refinement
-- Expand 45 subcategories to 100+ for finer granularity
-- Task-level performance analysis
-- Micro-specialization identification
-- Fractal refinement structure
-
-### 7. Multi-Modal Code Analysis
-- Static analysis integration
-- Dynamic performance profiling
-- Security vulnerability assessment
-- Maintainability metrics
-
-### 8. Collaborative Agent-Zero Networks
-- Multiple Agent-Zero instances collaborating
-- Distributed problem solving across agent networks
-- Emergent intelligence from agent coordination
-- Federated learning for strategy improvement
-
-## Integration Points & Extensibility
-
-### Data Export Formats
+### Data Exports
 - **JSON**: Hypergraph structure, paradigm matrices, atom type expressions
 - **YAML**: Task categorizations, pattern definitions
-- **Python APIs**: Full programmatic access to all components
-
-### External Tool Integration
-- **Language Servers**: LSP integration for IDE support
-- **Build Systems**: Multi-language compilation orchestration
-- **Testing Frameworks**: Cross-language test execution
-- **CI/CD**: Automated analysis in deployment pipelines
+- **Python APIs**: Full programmatic access
 
 ### API Endpoints
 ```python
-# OpenCog Analysis API
 from opencog.lib.opencog_analyzer import OpenCogAnalyzer
-analyzer = OpenCogAnalyzer('.')
-language_profile = analyzer.analyze_language('Python')
-category_leaders = analyzer.evaluate_category('symbolic_reasoning')
-
-# Hypergraph API
 from opencog.lib.hypergraph_analyzer import HypergraphAnalyzer
-hypergraph = HypergraphAnalyzer('.')
-graph_structure = hypergraph.generate_hypergraph()
-paradigm_matrix = hypergraph.generate_paradigm_performance_matrix()
-
-# Atom Type API
 from opencog.lib.atom_type_builder import AtomTypeBuilder
-builder = AtomTypeBuilder('.')
-system = builder.build()
-affinity = system.compute_paradigm_domain_affinity('functional', 'symbolic_reasoning')
 
-# Multi-Agent API
-from opencog import OpenCogWorkbench
-workbench = OpenCogWorkbench(tasks_dir='opencog/reasoning-tasks')
-result = workbench.solve_task('analogical-problem-solving', mode='autonomous')
+analyzer = OpenCogAnalyzer('.')
+hypergraph = HypergraphAnalyzer('.')
+builder = AtomTypeBuilder('.')
 ```
 
-### Extension Mechanisms
-- Add new cognitive domains to `opencog/data/ai-task-categories.yaml`
-- Define new paradigms in paradigm taxonomy
-- Contribute new reasoning tasks to `opencog/reasoning-tasks/`
-- Extend pattern library with proven cognitive patterns
-- Add new reasoning strategies to strategy system
+### Extensions
+- Add cognitive domains to `opencog/data/ai-task-categories.yaml`
+- Define paradigms in taxonomy
+- Contribute reasoning tasks to `opencog/reasoning-tasks/`
+- Extend pattern library with proven patterns
 
-## Documentation Resources
+## Documentation
 
-### Core Documentation
-- **ReadMe.md** - Repository overview and getting started
-- **opencog/README.md** - OpenCog framework documentation
-- **opencog/HYPERGRAPH.md** - Hypergraph analysis complete guide
-- **opencog/ATOM_TYPES.md** - Mathematical formalism reference
-- **opencog/OPENCOG_REASONING.md** - Multi-agent reasoning guide
-
-### Summary Documents
-- **ATOM_TYPE_SUMMARY.md** - Atom type implementation summary
-- **IMPLEMENTATION_SUMMARY.md** - Hypergraph implementation details
-- **INTEGRATION_SUMMARY.md** - Multi-agent integration overview
-
-### Tool Documentation
-- All `opencog/bin/` tools include `--help` options
-- Python modules include comprehensive docstrings
-- Example scripts demonstrate key workflows
+- **ReadMe.md** - Repository overview
+- **opencog/README.md** - OpenCog framework
+- **opencog/HYPERGRAPH.md** - Hypergraph analysis
+- **opencog/ATOM_TYPES.md** - Mathematical formalism
+- **opencog/OPENCOG_REASONING.md** - Multi-agent reasoning
+- **ATOM_TYPE_SUMMARY.md** - Implementation summary
+- **IMPLEMENTATION_SUMMARY.md** - Hypergraph details
+- **INTEGRATION_SUMMARY.md** - Multi-agent integration
 
 ## Meta-Reflective Stance
 
