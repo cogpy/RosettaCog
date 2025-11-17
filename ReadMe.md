@@ -222,12 +222,72 @@ This post-polyglot synthesis represents the transcendent expression of each lang
 core purpose - the specific functions each language was conceived to express.
 
 
-## To Do
+## Development Roadmap
+
+RosettaCog is on a path toward **entelechy** - the full realization of its potential as a living, adaptive meta-intelligence. See our comprehensive strategic planning documents:
+
+### 📋 Strategic Documents
+
+- **[ROADMAP.md](ROADMAP.md)** - Comprehensive 5-phase development roadmap (2025-2027+)
+  - Phase 1: Quality & Robustness (Q1 2025)
+  - Phase 2: Intelligence Amplification (Q2 2025)
+  - Phase 3: Automation & Synthesis (Q3-Q4 2025) ⭐ **Critical Phase**
+  - Phase 4: Ecosystem & Community (2026)
+  - Phase 5: Meta-Intelligence & Self-Improvement (2027+)
+
+- **[STRATEGIC_ANALYSIS.md](STRATEGIC_ANALYSIS.md)** - Deep analysis of current state, gaps, and opportunities
+  - Current state assessment across 7 dimensions
+  - Gap analysis with priorities
+  - Competitive landscape evaluation
+  - Strategic opportunities and recommendations
+
+- **[ROADMAP_QUICK.md](ROADMAP_QUICK.md)** - Quick reference summary
+  - Visual roadmap overview
+  - Key milestones and success metrics
+  - Critical path and priorities
+  - How to get involved
+
+### 🎯 Next Milestones
+
+| Timeline | Milestone | Impact |
+|----------|-----------|--------|
+| 2025 Q1 | **Production-grade quality** with 80% test coverage | Foundation for reliability |
+| 2025 Q3 | **FrankenCog compilation** - Automated polyglot synthesis ⭐ | **Game changer** |
+| 2025 Q4 | **AI-assisted code translation** with >80% accuracy | Practical utility |
+| 2026 | **Web platform** with interactive hypergraph visualization | Broad accessibility |
+| 2027+ | **Self-improving meta-intelligence** with AGI scaffolding | Full entelechy |
+
+### 🚀 Key Features Coming
+
+- ✅ **Now**: Language analysis, hypergraph, multi-agent reasoning, FrankenCog manifest
+- 🔄 **Phase 1**: Testing infrastructure, performance optimization, enhanced documentation
+- 🔮 **Phase 2**: Advanced analytics, pattern discovery, strategy optimization
+- 🚀 **Phase 3**: Automated FrankenCog compilation, code translation, benchmarking ⭐
+- 🌍 **Phase 4**: Web visualization, REST API, plugin ecosystem, community platform
+- 🧠 **Phase 5**: Self-improvement, language discovery, emergent patterns, AGI scaffolding
+
+See [ROADMAP.md](ROADMAP.md) for complete details and technical specifications.
+
+
+## Contributing
+
+We welcome contributions! Here's how you can help:
+
+- **Testing**: Write tests for core modules (Phase 1 priority)
+- **Documentation**: Improve tutorials and guides
+- **Analysis**: Validate language categorizations and cognitive mappings
+- **Development**: Implement roadmap features
+- **Community**: Join discussions, help users, share ideas
+
+See our [roadmap documents](ROADMAP.md) for specific contribution opportunities.
+
+
+## To Do (Legacy)
 
 Pull requests welcome!
 
 This project is not a perfect representation of RosettaCode yet.
-It has a few uncicode issues.
+It has a few unicode issues.
 It also has to deal with various formatting mistakes in the mediawiki source
 pages.
 
@@ -242,3 +302,6 @@ pages.
 * Add more bin tools
 
 * Address errors reported in rosettacode.log after running `make build`
+
+**Note**: These legacy items are now integrated into our comprehensive [ROADMAP.md](ROADMAP.md).
+See Phase 1 for testing/quality improvements and Phase 3+ for feature additions.
