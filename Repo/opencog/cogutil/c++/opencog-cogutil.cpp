@@ -17,6 +17,7 @@
 #include <fstream>
 #include <chrono>
 #include <iomanip>
+#include <cctype>
 
 namespace opencog {
 namespace cogutil {
